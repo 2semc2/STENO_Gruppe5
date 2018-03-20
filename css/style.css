@@ -160,8 +160,9 @@ a:hover
 
 .ui-button {
 	left: 105px;
-	margin-top: 25px;
+	margin-top: 20px;
 	color: #043586;
+	padding: 10px;
 }
 
 .ui-state-hover a, .ui-state-hover a:hover, .ui-state-hover a:link, .ui-state-hover a:visited, .ui-state-focus a, .ui-state-focus a:hover, .ui-state-focus a:link, .ui-state-focus a:visited, a.ui-button:hover, a.ui-button:focus {
@@ -209,4 +210,25 @@ a:hover
 .broodtekst h2 {
     text-align: center;
     color: #003d85
+}
+
+/* Kamerasiden */
+
+.kamera img {
+	width: 100%;
+}
+
+.delknap {
+	width: 100%;
+    height: 85px;
+    background: #003d85;
+    position: relative;
+    top: 0px;
+}
+
+.ui-button2 {
+	left: 105px;
+	margin-top: 20px;
+	color: #043586;
+	padding: 10px;
 }
