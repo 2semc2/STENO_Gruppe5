@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #d7811f;
+	font-family: "Au Passata";
 }
 
 /* LOGO RULES */
@@ -148,6 +149,23 @@ a:hover
   transform: none;
 }
 
+/* Quiz knap */
+.quizknap {
+	width: 100%;
+    height: 85px;
+    background: #003d85;
+    position: relative;
+    top: 85px;
+}
+
+.ui-button {
+	left: 105px;
+	margin-top: 25px;
+	font-family: 'Au Passata';
+}
+
+
+
 /* RULES FOR QUIZ STYLING */
 .quiz {
     width: 100%;
@@ -155,7 +173,11 @@ a:hover
     background: #003d85;
     position: relative;
     top: 85px;
-    font-family: 'au_passataregular', sans-serif;
+}
+
+.quizbillede {
+	position: relative;
+    top: 85px;
 }
 
 .quiz h1 , p {
@@ -169,7 +191,7 @@ a:hover
 
 .quiz a {
     position: relative;
-    top: 20px;
+    top: 0px;
 }
 
 .broodtekst {
