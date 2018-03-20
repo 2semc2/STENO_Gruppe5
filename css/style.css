@@ -161,10 +161,11 @@ a:hover
 .ui-button {
 	left: 105px;
 	margin-top: 25px;
-	font-family: 'Au Passata';
 }
 
-
+.ui-widget {
+	font-family: 'Au Passata';
+}
 
 /* RULES FOR QUIZ STYLING */
 .quiz {
