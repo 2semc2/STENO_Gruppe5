@@ -149,20 +149,17 @@ a:hover {
     height: 85px;
     background: #003d85;
     position: relative;
-    top: 85px;
+    top: 150px;
 }
 
 .ui-button {
-<<<<<<< HEAD
     left: 117px;
     margin-top: 25px;
     color: #043586;
-=======
-	left: 105px;
-	margin-top: 20px;
-	color: #043586;
-	padding: 10px;
->>>>>>> 0933b30e86fcae220e5ac3d8ae397d300c2db0b6
+    left: 105px;
+    margin-top: 20px;
+    color: #043586;
+    padding: 10px;
 }
 
 .ui-state-hover a,
@@ -222,20 +219,22 @@ p {
 
 .broodtekst h2 {
     text-align: center;
-    color: #003d85
+    color: #003d85;
 }
 
 /* RULES FOR QUIZ */
 
-.question{
+.question {
     font-weight: 600;
     text-align: center;
 }
+
 .answers {
     margin-bottom: 20px;
     text-align: left;
 }
-#submit{
+
+#submit {
     font-family: "Au Passata";
     font-size: 20px;
     background-color: #fff;
@@ -248,7 +247,8 @@ p {
     position: relative;
     left: 25px;
 }
-#submit:hover{
+
+#submit:hover {
     background-color: #3a8;
 }
 
@@ -256,14 +256,15 @@ p {
     color: white;
     padding: 20px;
 }
+
 /* Kamerasiden */
 
 .kamera img {
-	width: 100%;
+    width: 100%;
 }
 
 .delknap {
-	width: 100%;
+    width: 100%;
     height: 85px;
     background: #003d85;
     position: relative;
@@ -271,11 +272,17 @@ p {
 }
 
 .ui-button {
-	left: 150px;
-	margin-top: 20px;
-	color: #043586;
-	padding: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
-	
+    left: 150px;
+    margin-top: 20px;
+    color: #043586;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+/* RULES FOR VIDEO */
+
+video {
+    width: 100%;
 }
