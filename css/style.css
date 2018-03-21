@@ -159,7 +159,7 @@ a:hover
 }
 
 .ui-button {
-	left: 105px;
+	left: 115px;
 	margin-top: 20px;
 	color: #043586;
 	padding: 10px;
@@ -226,12 +226,78 @@ a:hover
     top: 0px;
 }
 
-.ui-button {
-	left: 150px;
+.button {
+    background-color: white;
+    border: none;
+    color: #003d85;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 135px;
 	margin-top: 20px;
-	color: #043586;
-	padding: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
+    cursor: pointer;
+	left: 200px;
+}
 	
+/* Tillykke siden */
+
+#point {
+	text-align: center;
+	color: white;
+	
+}
+
+.quiz2 {
+	top: -5px;
+}
+
+.quizknap2 {
+	top: ;
+}
+
+#stop {
+	padding: 0px;
+}
+
+.button2 {
+	background-color: #003d85;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+	left: 50px;
+	top: 100px;
+	position: relative;
+	width: 250px;
+	
+}
+
+.button2 a {
+	color: white;
+}
+
+.button3 {
+	background-color: #003d85;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+	cursor: pointer;
+	left: 50px;
+	top: 125px;
+	position: relative;
+	width: 250px;
+}
+
+.button3 a {
+	color: white;
 }
