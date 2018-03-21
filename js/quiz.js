@@ -2,24 +2,35 @@
 
 var myQuestions = [
     {
-        question: "What is 10/2?",
+        question: "Hvad gør man i dag, for at undgå borene bliver for varme?",
         answers: {
-            a: '3',
-            b: '5',
-            c: '115'
+            a: 'Tandplejeren hælder koldt vand i det område, som der bliver boret i', 
+            b: 'Tandlægen puster ind i munden på patienten',
+            c: 'Det er ikke noget problem i dag, derfor gør man ikke noget'
         },
-        correctAnswer: 'b'
+        correctAnswer: 'a'
     },
     {
-        question: "What is 30/3?",
+        question: "Hvorfor har man ikke længere gulvtæpper ved tandlægen?",
         answers: {
-            a: '3',
-            b: '5',
-            c: '10'
+            a: 'Af hygienjske årsager',
+            b: 'For at patienter ikke føler sig hjemme',
+            c: 'Fordi stolene har fået glidsikre fødder derfor behøver man ikke længere tæppet'
         },
-        correctAnswer: 'c'
+        correctAnswer: 'a'
+    },    
+    {
+        question: "I hvilken alder, fik folk i 40'erne typisk gebis?",
+        answers: {
+            a: 'Konfirmationsalderen',
+            b: '30erne',
+            c: 'Pensionsalderen'
+        },
+        correctAnswer: 'b'
     }
 ];
+
+
 
 var quizContainer = document.getElementById('quiz');
 var resultsContainer = document.getElementById('results');
@@ -96,7 +107,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
         }
 
         // show number of correct answers out of total
-        resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length;
+        resultsContainer.innerHTML = numCorrect + ' ud af ' + questions.length + ' korrekte ';
     }
 
     // show questions right away

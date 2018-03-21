@@ -233,7 +233,7 @@ p {
 }
 .answers {
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
 }
 #submit{
     font-family: "Au Passata";
