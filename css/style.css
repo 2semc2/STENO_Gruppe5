@@ -153,12 +153,10 @@ a:hover {
 }
 
 .ui-button {
-<<<<<<< HEAD
-	left: 115px;
-	margin-top: 20px;
-	color: #043586;
-	padding: 10px;
-=======
+    left: 115px;
+    margin-top: 20px;
+    color: #043586;
+    padding: 10px;
     left: 117px;
     margin-top: 25px;
     color: #043586;
@@ -166,7 +164,6 @@ a:hover {
     margin-top: 20px;
     color: #043586;
     padding: 10px;
->>>>>>> 771d40e6a10cff114d51a4702ea9d269a4a98236
 }
 
 .ui-state-hover a,
@@ -297,33 +294,33 @@ p {
     display: inline-block;
     font-size: 20px;
     margin-left: 135px;
-	margin-top: 20px;
+    margin-top: 20px;
     cursor: pointer;
-	left: 200px;
+    left: 200px;
 }
-	
+
 /* Tillykke siden */
 
 #point {
-	text-align: center;
-	color: white;
-	
+    text-align: center;
+    color: white;
+
 }
 
 .quiz2 {
-	top: -5px;
+    top: -5px;
 }
 
 .quizknap2 {
-	top: ;
+    top: ;
 }
 
 #stop {
-	padding: 0px;
+    padding: 0px;
 }
 
 .button2 {
-	background-color: #003d85;
+    background-color: #003d85;
     border: none;
     color: white;
     padding: 10px 15px;
@@ -332,19 +329,19 @@ p {
     display: inline-block;
     font-size: 20px;
     cursor: pointer;
-	left: 50px;
-	top: 100px;
-	position: relative;
-	width: 250px;
-	
+    left: 50px;
+    top: 100px;
+    position: relative;
+    width: 250px;
+
 }
 
 .button2 a {
-	color: white;
+    color: white;
 }
 
 .button3 {
-	background-color: #003d85;
+    background-color: #003d85;
     border: none;
     color: white;
     padding: 10px 15px;
@@ -352,17 +349,17 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-	cursor: pointer;
-	left: 50px;
-	top: 125px;
-	position: relative;
-	width: 250px;
+    cursor: pointer;
+    left: 50px;
+    top: 125px;
+    position: relative;
+    width: 250px;
 }
 
 .button3 a {
-	color: white;
+    color: white;
 }
-=======
+
 .ui-button {
     left: 150px;
     margin-top: 20px;
@@ -378,4 +375,3 @@ p {
 video {
     width: 100%;
 }
->>>>>>> 771d40e6a10cff114d51a4702ea9d269a4a98236

@@ -4,7 +4,7 @@ var myQuestions = [
     {
         question: "Hvad gør man i dag, for at undgå borene bliver for varme?",
         answers: {
-            a: 'Tandplejeren hælder koldt vand i det område, som der bliver boret i', 
+            a: 'Tandplejeren hælder koldt vand i det område, som der bliver boret i',
             b: 'Tandlægen puster ind i munden på patienten',
             c: 'Det er ikke noget problem i dag, derfor gør man ikke noget'
         },
@@ -18,7 +18,7 @@ var myQuestions = [
             c: 'Fordi stolene har fået glidsikre fødder derfor behøver man ikke længere tæppet'
         },
         correctAnswer: 'a'
-    },    
+    },
     {
         question: "I hvilken alder, fik folk i 40'erne typisk gebis?",
         answers: {
@@ -38,36 +38,36 @@ var submitButton = document.getElementById('submit');
 
 generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);
 
-function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
+function generateQuiz(questions, quizContainer, resultsContainer, submitButton) {
 
-    function showQuestions(questions, quizContainer){
+    function showQuestions(questions, quizContainer) {
         // we'll need a place to store the output and the answer choices
         var output = [];
         var answers;
 
         // for each question...
-        for(var i=0; i<questions.length; i++){
-            
+        for (var i = 0; i < questions.length; i++) {
+
             // first reset the list of answers
             answers = [];
 
             // for each available answer...
-            for(letter in questions[i].answers){
+            for (letter in questions[i].answers) {
 
                 // ...add an html radio button
                 answers.push(
-                    '<label>'
-                        + '<input type="radio" name="question'+i+'" value="'+letter+'">'
-                        + letter + ': '
-                        + questions[i].answers[letter]
-                    + '</label>'
+                    '<label>' +
+                    '<input type="radio" name="question' + i + '" value="' + letter + '">' +
+                    letter + ': ' +
+                    questions[i].answers[letter] +
+                    '</label>'
                 );
             }
 
             // add this question and its answers to the output
             output.push(
-                '<div class="question">' + questions[i].question + '</div>'
-                + '<div class="answers">' + answers.join('') + '</div>'
+                '<div class="question">' + questions[i].question + '</div>' +
+                '<div class="answers">' + answers.join('') + '</div>'
             );
         }
 
@@ -76,31 +76,31 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
     }
 
 
-    function showResults(questions, quizContainer, resultsContainer){
-        
+    function showResults(questions, quizContainer, resultsContainer) {
+
         // gather answer containers from our quiz
         var answerContainers = quizContainer.querySelectorAll('.answers');
-        
+
         // keep track of user's answers
         var userAnswer = '';
         var numCorrect = 0;
-        
+
         // for each question...
-        for(var i=0; i<questions.length; i++){
+        for (var i = 0; i < questions.length; i++) {
 
             // find selected answer
-            userAnswer = (answerContainers[i].querySelector('input[name=question'+i+']:checked')||{}).value;
-            
+            userAnswer = (answerContainers[i].querySelector('input[name=question' + i + ']:checked') || {}).value;
+
             // if answer is correct
-            if(userAnswer===questions[i].correctAnswer){
+            if (userAnswer === questions[i].correctAnswer) {
                 // add to the number of correct answers
                 numCorrect++;
-                
+
                 // color the answers green
                 answerContainers[i].style.color = 'lightgreen';
             }
             // if answer is wrong or blank
-            else{
+            else {
                 // color the answers red
                 answerContainers[i].style.color = 'red';
             }
@@ -112,9 +112,9 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 
     // show questions right away
     showQuestions(questions, quizContainer);
-    
+
     // on submit, show results
-    submitButton.onclick = function(){
+    submitButton.onclick = function () {
         showResults(questions, quizContainer, resultsContainer);
     }
 
