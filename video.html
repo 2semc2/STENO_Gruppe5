@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="da">
+<html>
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="Webdok om Kochs International">
+    <meta name="description" content="Steno Museet, MEDICINHISTORIE-QUIZ App">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Steno Museet - Medicin historiske lege</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
@@ -38,27 +41,28 @@
 
     <div class="quiz">
         <br>
-        <h1>QUIZ!</h1>
-        <p>FOR HVERT RIGTIGT SVAR FÅR DU 10 POINT</p>
+        <p>SE VIDEOEN OG LYD GODT EFTER</p>
         <br>
     </div>
 
-    <div class=broodtekst>
-        <h2>
-            Hvad gør man i dag, for at undgå borene bliver for varme?
-        </h2>
+   <br>
+    <video class="quizbillede" controls>
+    <source src="videos/videoplaceholder.mp4" type="video/mp4">
+    Din browser kan ikke afspille videoen.
+</video>
 
-        <div id="quiz"></div>
-        <button id="submit">Hvor mange korrekte har jeg?</button>
+    <div class="quizknap">
+        <a class="ui-button ui-widget ui-corner-all" href="quiz.html">START QUIZZEN</a>
+        <br>
+    </div>
 
 
-        <div class="quiz">
-            <div id="results"></div>
-        </div>
-        <footer>
-        </footer>
 
-        <script src="js/quiz.js"></script>
+    <footer>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </body>
 
 </html>
