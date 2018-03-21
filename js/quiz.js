@@ -1,3 +1,5 @@
+// JavaScript Quiz af Simple Steps Code https://simplestepscode.com/javascript-quiz-tutorial/
+
 var myQuestions = [
     {
         question: "What is 10/2?",
